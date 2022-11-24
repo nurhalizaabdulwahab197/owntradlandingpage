@@ -9,7 +9,7 @@ const Jumbo = () => {
       <Grid container>
         <Grid item xs="12">
           <Typography variant="h4" fontWeight="bold">
-            OwnTrad
+            OWNTRAD
           </Typography>
         </Grid>
         <Grid item xs="12">
@@ -18,8 +18,9 @@ const Jumbo = () => {
           </Typography>
         </Grid>
         <Grid item xs="12">
-          <button className="jumboButton1">Login</button>
-          <button className="jumboButton2">Sign Up</button>
+          <a href="http://localhost:3001/">
+            <button className="jumboButton2">PROCEED</button>
+          </a>
         </Grid>
       </Grid>
     </div>

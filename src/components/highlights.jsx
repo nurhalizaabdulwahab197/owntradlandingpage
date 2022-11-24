@@ -7,7 +7,7 @@ import Check from "../assets/circle-check-solid.svg";
 
 const Highlights = () => {
   return (
-    <div style={{ minHeight: "80vh" }}>
+    <div style={{ minHeight: "60vh" }}>
       <Container>
         <Box sx={{ mb: "50px" }}>
           <Typography variant="h6" sx={{ fontWeight: "bold" }}>

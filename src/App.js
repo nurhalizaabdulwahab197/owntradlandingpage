@@ -5,6 +5,8 @@ import TechStack from "./components/technologyStack";
 import Nav from "./components/nav";
 import { Container } from "@mui/system";
 import Highlights from "./components/highlights";
+import Footer from "./components/footer";
+import Divider from "@mui/material/Divider";
 
 function App() {
   return (
@@ -14,6 +16,9 @@ function App() {
       </Container>
       <Jumbo></Jumbo>
       <Highlights />
+      <Divider></Divider>
+      <TechStack />
+      <Footer></Footer>
     </div>
   );
 }

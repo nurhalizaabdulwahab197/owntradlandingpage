@@ -35,22 +35,29 @@ const Nav = () => {
             <a
               href="https://www.facebook.com/profile.php?id=100087768564455&mibextid=ZbWKwL"
               style={{ color: "inherit" }}
+              target="_blank"
             >
               <FacebookIcon sx={{ cursor: "pointer" }} className="svg_icons" />
             </a>
             <a
               href="https://www.instagram.com/owntrad/"
               style={{ color: "inherit" }}
+              target="_blank"
             >
               <InstagramIcon className="svg_icons"></InstagramIcon>
             </a>
             <a
-              href="https://www.linkedin.com/in/owntrad-utm-965237258/"
+              href="https://www.linkedin.com/company/89837328"
               style={{ color: "inherit" }}
+              target="_blank"
             >
               <LinkedInIcon className="svg_icons"></LinkedInIcon>
             </a>
-            <a href="https://twitter.com/owntrad_" style={{ color: "inherit" }}>
+            <a
+              href="https://twitter.com/owntrad_"
+              style={{ color: "inherit" }}
+              target="_blank"
+            >
               <TwitterIcon className="svg_icons"></TwitterIcon>
             </a>
           </Box>
