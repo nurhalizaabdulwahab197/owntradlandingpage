@@ -18,7 +18,7 @@ const Jumbo = () => {
           </Typography>
         </Grid>
         <Grid item xs="12">
-          <a href="http://localhost:3001/">
+          <a href="http://localhost:3000/">
             <button className="jumboButton2">PROCEED</button>
           </a>
         </Grid>
